@@ -1,0 +1,17 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "private,npm,achuan,nodejs",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "node ./src/main.js -l 0.0.0.0:4000 --config ./config.yaml && start http://localhost:4000",
+    "pm2:start": "pm2 start pm2.config.js",
+    "pm2:stop": "pm2 stop private_npm"
+  },
+  "keywords": [],
+  "author": "achuan",
+  "license": "ISC",
+  "dependencies": {
+    "verdaccio": "^4.8.1"
+  }
+}
