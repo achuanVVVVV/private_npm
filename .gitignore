@@ -1,6 +1,7 @@
 node_modules
 logs
 storage
+htpasswd
 yarn.lock
 package-lock.json
 *.rar

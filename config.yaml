@@ -36,6 +36,7 @@ auth:
 uplinks:
   npmjs:
     url: https://registry.npmjs.org/
+    time: 10s
 
 packages:
   "@*/*":
