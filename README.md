@@ -25,3 +25,19 @@ npm run pm2:start
 ```shell
 npm run pm2:stop
 ```
+
+## 体验
+
+### 下载
+>无限制
+> 存在本地缓存依赖或私有依赖优先使用本地,没有则默认代理npm org
+```shell
+npm i  --registry http://47.94.233.65:4000
+```
+
+### 发布
+> 允许匿名发布，但需要在仓库名后加上 -test 例如 package.json -> name : xxxx-test
+
+```shell
+npm publish --registry http://47.94.233.65:4000
+```
